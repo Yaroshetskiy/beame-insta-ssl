@@ -1,0 +1,13 @@
+[2017-01-08 18:13:28] [BeameStore] INFO: Registering credential https://ypxf72akb6onjvrq.ohkv8odznwh5jpwm.v1.p.beameio.net ...
+ERROR { message: 'authToken.signedData.valid_till is in the past - token expired',
+  module: 'ProvisionApi',
+  data: 
+   { status: 401,
+     message: 'authToken.signedData.valid_till is in the past - token expired',
+     url: 'https://ypxf72akb6onjvrq.ohkv8odznwh5jpwm.v1.p.beameio.net/node/auth/register',
+     postData: 
+      { name: 'Peter',
+        email: 'peter@yaroshetskiy.ru',
+        parent_fqdn: undefined,
+        edge_fqdn: 'p3npumfanjyf7hs1.tr9k0gta5imrufpf.v1.p.beameio.net' } },
+  code: 'ApiRestError' }
